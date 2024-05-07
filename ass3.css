@@ -1,0 +1,42 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #14213d;
+}
+
+#d1{
+    border: 1px solid gray;
+    width: 250px;
+    box-shadow: 0px 4px 8px 0px gray;
+    border-radius: 20px;
+    margin: 20px;
+    height: 250px;
+}
+
+#d2{
+    height:150px;
+}
+#d2 img{
+    border: 1px none gray;
+    border-radius: 20px 20px 0px 0px;
+    width: 250px;
+    height: 150px;
+}
+
+#d3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px none;
+    border-radius: 0px 0px 20px 20px; 
+    line-height: 1px;
+    height: 100px;
+    padding: 1px;
+}
+
+.checked{
+    color: orange;
+}
